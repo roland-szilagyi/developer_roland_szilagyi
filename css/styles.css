@@ -62,13 +62,14 @@ header, main, article, section, aside, footer {
 /* ---------- SEMANTIC CONTAINERS ---------- */
 
 header {
-    background-color: aquamarine;
-    height: 8vh;
+    background-color: #3E6E79;
+    height: 4rem;
+    outline: 1px solid white;
 }
 
 main {
-    background-color: cornflowerblue;
-    height: 92vh;
+    background-color: #3E6E79;
+    height: 93vh;
 }
 
 /* ---------- HEADER ----------*/
@@ -78,7 +79,78 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    outline: 1px solid red;
+    outline: 1px solid yellow;
+}
+
+.header-left-container {
+    color: #D79E66;
+}
+
+.header-right-container {
+    color: #D79E66;
+}
+
+/* ---------- HAMBURGER ---------- */
+
+.hamburger-button {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 2rem;
+    height: 2rem;
+    right: 1rem;
+    top: 1rem;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.hamburger-lines,
+.hamburger-lines::before,
+.hamburger-lines::after {
+    display: block;
+    position: absolute;
+    width: 2rem;
+    height: 0.2rem;
+    width: 100%;
+    background-color: #D79E66;
+}
+
+.hamburger-lines::before {
+    content: "";
+    background-color: #D79E66;
+    top: -0.6rem;
+}
+
+.hamburger-lines::after {
+    content: "";
+    background-color: #D79E66;
+    top: 0.6rem;
+}
+
+.menu__box {
+    outline: 1px solid white;
+    position: fixed;
+    display: block;
+    right: 0;
+    top: 0;
+    padding: 0;
+    width: 12rem;
+    height: 100%;
+    background-color: lightgrey;
+    visibility: hidden;
+}
+
+.menu__items {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+#menu__toggle {
+    visibility: hidden;
+}
+
+#menu__toggle:checked ~ .menu__box {
+    visibility: visible;
 }
 
 /* ---------- MAIN ---------- */
@@ -97,20 +169,35 @@ main div * {
 
 h1 {
 	font-size: 1rem;
+    color: #DFE1EE;
 }
 
 h2 {
 	font-size: 2rem;
+    color: #D79E66
 }
 
 h3 {
 	font-size: 1.5rem;
+    color: #D79E66;
 }
 
 main div p {
-    outline: 1px solid green;
+    color: #DFE1EE;
+}
+
+main div p:last-child {
+    border: 2px solid #D79E66;
     margin-top: 3rem;
     height: 2rem;
     width: 10rem;
     text-align: center;
+    color: #D79E66;
 }
+
+/* ---- COLORS ----
+
+color: #D79E66;     orange
+color: #DFE1EE;     white
+
+*/
