@@ -62,11 +62,18 @@ header, main, article, section, aside, footer {
 /* ---------- SEMANTIC CONTAINERS ---------- */
 
 header {
-	height:10vh;
     background-color: aquamarine;
 }
 
 main {
-	height: 90vh;
     background-color: cornflowerblue;
+}
+
+/* ---------- HEADER ----------*/
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: 1px solid red;
 }
