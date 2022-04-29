@@ -63,17 +63,30 @@ header, main, article, section, aside, footer {
 
 header {
     background-color: aquamarine;
+    height: 8vh;
 }
 
 main {
     background-color: cornflowerblue;
+    height: 92vh;
 }
 
 /* ---------- HEADER ----------*/
 
 .header-container {
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     outline: 1px solid red;
+}
+
+/* ---------- MAIN ---------- */
+
+.main-container {
+    outline: 1px solid yellow;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
