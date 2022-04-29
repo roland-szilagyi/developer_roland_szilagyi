@@ -85,10 +85,10 @@ main {
 
 .main-container {
     outline: 1px solid yellow;
-    height: 40%;
+    height: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 main div * {
@@ -109,20 +109,8 @@ h3 {
 
 main div p {
     outline: 1px solid green;
+    margin-top: 3rem;
     height: 2rem;
     width: 10rem;
     text-align: center;
-}
-
-.main-container-bottom {
-    outline: 1px solid yellow;
-    height: 60%;
-    display: flex;
-    justify-content: center;
-}
-
-.R {
-    outline: 1px solid pink;
-    font-size: 15rem;
-    margin-right: 10%;
 }
