@@ -90,3 +90,26 @@ main {
     flex-direction: column;
     justify-content: center;
 }
+
+main div * {
+	padding: 0.5rem 0;  /* --- FONTOS SZABÀLY --- */
+}
+
+h1 {
+	font-size: 1rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+main div p {
+    outline: 1px solid green;
+    height: 2rem;
+    width: 10rem;
+    text-align: center;
+}
