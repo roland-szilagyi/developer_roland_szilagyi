@@ -22,8 +22,8 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-    box-sizing: border-box;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -48,9 +48,25 @@ table {
 	border-spacing: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 header, main, article, section, aside, footer {
   padding: 1rem;
   /* minden szemantic containerben 1rem padding */
 }
 
 /* ---------- RESET END ---------- */
+
+/* ---------- SEMANTIC CONTAINERS ---------- */
+
+header {
+	height:10vh;
+    background-color: aquamarine;
+}
+
+main {
+	height: 90vh;
+    background-color: cornflowerblue;
+}
