@@ -173,7 +173,8 @@ h1 {
 }
 
 h2 {
-	font-size: 2rem;
+	font-size: 2.5rem;
+    font-family: Gilroy;
     color: #D79E66
 }
 
@@ -193,6 +194,22 @@ main div p:last-child {
     width: 10rem;
     text-align: center;
     color: #D79E66;
+}
+
+main div {
+    font-family: Jura;
+}
+
+/* ---- FONTS ---- */
+
+@font-face {
+    font-family: Jura;
+    src: url(../assets/fonts/Jura-Light.ttf);
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(../assets/fonts/Gilroy-Bold.ttf);
 }
 
 /* ---- COLORS ----
