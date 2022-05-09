@@ -61,14 +61,16 @@ header, main, article, section, aside, footer {
 
 /* ---------- SEMANTIC CONTAINERS ---------- */
 
+body {
+    background-image: linear-gradient(#3E6E79, rgb(41,40,39));
+}
+
 header {
-    background-color: #3E6E79;
     height: 4rem;
     outline: 1px solid white;
 }
 
 main {
-    background-color: #3E6E79;
     height: 93vh;
 }
 
@@ -144,6 +146,8 @@ main {
 }
 
 .menu__items {
+    position: relative;
+    top: 10%;
     padding: 1rem;
     font-size: 1.5rem;
 }
