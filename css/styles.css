@@ -84,6 +84,9 @@ main {
 
 .header-left-container {
     color: #D79E66;
+    font-family: Gilroy;
+    font-size: 1.2rem;
+    text-shadow: 0.7px 0.7px 0.7px black;
 }
 
 .header-right-container {
