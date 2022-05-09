@@ -139,7 +139,7 @@ main {
     padding: 0;
     width: 12rem;
     height: 100%;
-    background-color: lightgrey;
+    background-color: rgba(38, 70, 78, 1);
     visibility: hidden;
 }
 
@@ -194,7 +194,7 @@ main div p {
 main div p:last-child {
     border: 2px solid #D79E66;
     border-radius: 0.2rem; /* MINDEN GOMB ILYEN LEGYEN */
-    margin-top: 3rem;
+    margin-top: 2rem;
     height: 3rem;
     width: 10rem;
     text-align: center;
@@ -203,9 +203,8 @@ main div p:last-child {
 }
 
 main div p:last-child:hover {
-    color: white;
     cursor: pointer;
-    border: 2px solid #DFE1EE;
+    background-color: rgba(38, 70, 78, 0.5);
 }
 
 main div {
