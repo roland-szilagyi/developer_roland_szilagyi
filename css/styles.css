@@ -171,7 +171,7 @@ main div * {
 }
 
 h1 {
-	font-size: 1rem;
+	font-size: 1.5rem;
     color: #DFE1EE;
 }
 
@@ -193,11 +193,19 @@ main div p {
 
 main div p:last-child {
     border: 2px solid #D79E66;
+    border-radius: 0.2rem; /* MINDEN GOMB ILYEN LEGYEN */
     margin-top: 3rem;
-    height: 2rem;
+    height: 3rem;
     width: 10rem;
     text-align: center;
     color: #D79E66;
+    line-height: 1.5rem;
+}
+
+main div p:last-child:hover {
+    color: white;
+    cursor: pointer;
+    border: 2px solid #DFE1EE;
 }
 
 main div {
