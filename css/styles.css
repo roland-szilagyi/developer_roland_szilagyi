@@ -214,7 +214,8 @@ main div p:last-child {
 
 main div p:last-child:hover {
     cursor: pointer;
-    background-color: rgba(38, 70, 78, 0.5);
+    color: #DFE1EE;
+    border: 2px solid #DFE1EE;
 }
 
 main div {
