@@ -175,7 +175,8 @@ h1 {
 h2 {
 	font-size: 2.5rem;
     font-family: Gilroy;
-    color: #D79E66
+    color: #D79E66;
+    text-shadow: 0.7px 0.7px 0.7px black;
 }
 
 h3 {
