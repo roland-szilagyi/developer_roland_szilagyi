@@ -67,7 +67,7 @@ body {
 
 header {
     height: 4rem;
-    outline: 1px solid white;
+    outline: 1px solid #D79E66;
 }
 
 main {
@@ -133,7 +133,7 @@ main {
 }
 
 .menu__box {
-    outline: 1px solid white;
+    outline: 1px solid #DFE1EE; 
     position: fixed;
     display: block;
     right: 0;
@@ -156,7 +156,7 @@ main {
 
 .menu__items:hover {
     cursor: pointer;
-    color: #DFE1EE;;
+    color: #DFE1EE;
 }
 
 #menu__toggle {
@@ -243,12 +243,6 @@ color: #D79E66;     orange
 color: #DFE1EE;     white
 
 */
-
-
-
-
-
-
 
 
 @media screen and (min-width: 576px) {
