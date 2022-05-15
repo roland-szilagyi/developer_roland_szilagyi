@@ -61,8 +61,18 @@ header, main, article, section, aside, footer {
 
 /* ---------- SEMANTIC CONTAINERS ---------- */
 
-body {
+body { 
     background-image: linear-gradient(#3E6E79, rgb(41,40,39));
+}
+
+.paperplan-container {
+    display: flex;
+    justify-content: center;
+    outline: 1px solid yellow;
+}
+
+.paperplan {
+    width: 45%;
 }
 
 header {
@@ -141,7 +151,7 @@ main {
     padding: 0;
     width: 50%;
     height: 100%;
-    background-color: rgba(38, 70, 78, 1);
+    background-color: rgb(38, 70, 78);
     visibility: hidden;
 }
 
@@ -171,7 +181,7 @@ main {
 
 .main-container {
     /* outline: 1px solid yellow; */
-    height: 80%;
+    height: 45%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -244,6 +254,7 @@ color: #DFE1EE;     white
 
 */
 
+/* ---- MEDIA Q`s ----*/
 
 @media screen and (min-width: 576px) {
 
