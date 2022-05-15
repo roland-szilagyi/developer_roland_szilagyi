@@ -68,7 +68,6 @@ body {
 .paperplan-container {
     display: flex;
     justify-content: center;
-    outline: 1px solid yellow;
 }
 
 .paperplan {
