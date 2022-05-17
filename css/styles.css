@@ -62,7 +62,7 @@ header, main, article, section, aside, footer {
 /* ---------- SEMANTIC CONTAINERS ---------- */
 
 body { 
-    background-image: linear-gradient(#3E6E79, rgb(41,40,39));
+    background-image: linear-gradient(#051622, rgb(41,40,39));
 }
 
 .paperplan-container {
@@ -71,12 +71,12 @@ body {
 }
 
 .paperplan {
-    width: 45%;
+    position: relative;
+    width: 45vw;
 }
 
 header {
     height: 4rem;
-    outline: 1px solid #D79E66;
 }
 
 main {
@@ -90,11 +90,19 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* outline: 1px solid yellow; */
+}
+
+.line {
+    height: 1px;
+    width: 90vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0 4.5%;
 }
 
 .header-left-container {
-    color: #D79E66;
+    color: #1BA098;
     font-family: Gilroy;
     font-size: 1.2rem;
     text-shadow: 0.7px 0.7px 0.7px black;
@@ -197,14 +205,14 @@ h1 {
 
 h2 {
 	font-size: 2.5rem;
-    font-family: Gilroy;
+    font-family: Brandon;
     color: #D79E66;
     text-shadow: 0.7px 0.7px 0.7px black;
 }
 
 h3 {
 	font-size: 1.5rem;
-    color: #D79E66;
+    color: #1BA098;
 }
 
 main div p {
@@ -239,6 +247,11 @@ main div {
 @font-face {
     font-family: Jura;
     src: url(../assets/fonts/Jura-Light.ttf);
+}
+
+@font-face {
+    font-family: Brandon;
+    src: url(../assets/fonts/BrandonText-Thin.otf);
 }
 
 @font-face {
