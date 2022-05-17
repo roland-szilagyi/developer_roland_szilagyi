@@ -73,6 +73,7 @@ body {
 .paperplan {
     position: relative;
     width: 45vw;
+    z-index: -1;
 }
 
 header {
@@ -103,9 +104,10 @@ main {
 
 .header-left-container {
     color: #1BA098;
-    font-family: Gilroy;
+    font-family: Jura;
+    font-weight: 900;
     font-size: 1.2rem;
-    text-shadow: 0.7px 0.7px 0.7px black;
+    /* text-shadow: 0.7px 0.7px 0.7px black; */
 }
 
 .header-right-container {
@@ -158,8 +160,9 @@ main {
     padding: 0;
     width: 50%;
     height: 100%;
-    background-color: rgb(38, 70, 78);
+    background-color: #051622;
     visibility: hidden;
+    z-index: 0;
 }
 
 .menu__items {
@@ -174,6 +177,10 @@ main {
 .menu__items:hover {
     cursor: pointer;
     color: #DFE1EE;
+}
+
+nav ul li:last-child {
+    color: #1BA098;
 }
 
 #menu__toggle {
@@ -192,6 +199,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 main div * {
@@ -204,10 +212,12 @@ h1 {
 }
 
 h2 {
-	font-size: 2.5rem;
+	font-size: 5rem;
     font-family: Brandon;
     color: #D79E66;
     text-shadow: 0.7px 0.7px 0.7px black;
+    font-weight: 600;
+    letter-spacing: 0.4rem;
 }
 
 h3 {
@@ -217,6 +227,7 @@ h3 {
 
 main div p {
     color: #DFE1EE;
+    text-align: center;
 }
 
 main div p:last-child {
@@ -225,16 +236,13 @@ main div p:last-child {
     margin-top: 2rem;
     height: 3rem;
     width: 10rem;
-    text-align: center;
     color: #D79E66;
     line-height: 1.5rem;
 }
 
 main div p:last-child:hover {
     cursor: pointer;
-    color: rgb(41,40,39);
-    border: 2px solid #DFE1EE;
-    background-color: #D79E66;
+    background-color: #051622;
     opacity: 0.9;
 }
 
@@ -263,6 +271,9 @@ main div {
 
 color: #D79E66;     orange
 color: #DFE1EE;     white
+color: #1BA098;     zöldeskék
+color: #051622;     háttér sötétkék
+
 
 */
 
