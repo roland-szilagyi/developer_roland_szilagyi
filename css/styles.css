@@ -62,18 +62,7 @@ header, main, article, section, aside, footer {
 /* ---------- SEMANTIC CONTAINERS ---------- */
 
 body { 
-    background-image: linear-gradient(#051622, rgb(41,40,39));
-}
-
-.paperplan-container {
-    display: flex;
-    justify-content: center;
-}
-
-.paperplan {
-    position: relative;
-    width: 45vw;
-    z-index: -1;
+    background-image: linear-gradient(#051622, #292827);
 }
 
 header {
@@ -93,25 +82,16 @@ main {
     align-items: center;
 }
 
-.line {
-    height: 1px;
-    width: 90vw;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    margin: 0 4.5%;
-}
-
 .header-left-container {
-    color: #1BA098;
+    color: #35CABA; /*kék*/
     font-family: Jura;
     font-weight: 900;
     font-size: 1.2rem;
-    /* text-shadow: 0.7px 0.7px 0.7px black; */
+    opacity: 0.9;
 }
 
-.header-right-container {
-    color: #D79E66;
+.header-right-container { /* menü elemek szine */ 
+    color: #D79E66; /*narancs*/
 }
 
 /* ---------- HAMBURGER ---------- */
@@ -162,7 +142,6 @@ main {
     height: 100%;
     background-color: #051622;
     visibility: hidden;
-    z-index: 0;
 }
 
 .menu__items {
@@ -179,10 +158,6 @@ main {
     color: #DFE1EE;
 }
 
-nav ul li:last-child {
-    color: #1BA098;
-}
-
 #menu__toggle {
     visibility: hidden;
 }
@@ -191,10 +166,15 @@ nav ul li:last-child {
     visibility: visible;
 }
 
+nav ul li:last-child {
+    color: #35CABA;
+}
+
+/* ---------- HAMBURGER END ----------*/
+
 /* ---------- MAIN ---------- */
 
 .main-container {
-    /* outline: 1px solid yellow; */
     height: 45%;
     display: flex;
     flex-direction: column;
@@ -202,27 +182,38 @@ nav ul li:last-child {
     align-items: center;
 }
 
+.paperplane-container {
+    display: flex;
+    justify-content: center;
+    max-width: 55%;
+    margin: auto;
+}
+
+.paperplane {
+    width: 100%;
+    height: auto;
+}
+
 main div * {
 	padding: 0.5rem 0;  /* --- FONTOS SZABÀLY --- */
 }
 
 h1 {
+	font-size: 5rem;
+    font-family: Brandon;
+    color: #D79E66;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+}
+
+h2 {
 	font-size: 1.5rem;
     color: #DFE1EE;
 }
 
-h2 {
-	font-size: 5rem;
-    font-family: Brandon;
-    color: #D79E66;
-    text-shadow: 0.7px 0.7px 0.7px black;
-    font-weight: 600;
-    letter-spacing: 0.4rem;
-}
-
 h3 {
 	font-size: 1.5rem;
-    color: #1BA098;
+    color: #35CABA;
 }
 
 main div p {
@@ -235,7 +226,7 @@ main div p:last-child {
     border-radius: 0.2rem; /* MINDEN GOMB ILYEN LEGYEN */
     margin-top: 2rem;
     height: 3rem;
-    width: 10rem;
+    width: 11rem;
     color: #D79E66;
     line-height: 1.5rem;
 }
@@ -262,21 +253,6 @@ main div {
     src: url(../assets/fonts/BrandonText-Thin.otf);
 }
 
-@font-face {
-    font-family: Gilroy;
-    src: url(../assets/fonts/Gilroy-Bold.ttf);
-}
-
-/* ---- COLORS ----
-
-color: #D79E66;     orange
-color: #DFE1EE;     white
-color: #1BA098;     zöldeskék
-color: #051622;     háttér sötétkék
-
-
-*/
-
 /* ---- MEDIA Q`s ----*/
 
 @media screen and (min-width: 576px) {
@@ -293,11 +269,11 @@ color: #051622;     háttér sötétkék
         font-size: 2rem;
     }
 
-    h1, h3 {
+    h2, h3 {
         font-size: 2rem; /* +30% bigger */
     }
 
-    h2 {
+    h1 {
         font-size: 3.3rem; /* +30% bigger */
     }
 
@@ -306,8 +282,17 @@ color: #051622;     háttér sötétkék
     }
 
     main div p:last-child {
-        width: 13rem;
+        width: 14.5rem;
         height: 4rem;
         line-height: 2.5rem;
     }
 }
+
+/* ---- COLORS ----
+
+color: #D79E66;     orange
+color: #DFE1EE;     white
+color: #1BA098;     zöldeskék
+color: #051622;     háttér sötétkék
+
+*/
