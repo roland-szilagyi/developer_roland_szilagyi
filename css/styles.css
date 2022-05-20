@@ -73,6 +73,12 @@ main {
     height: 93vh;
 }
 
+article {
+    height: 100vh;
+    background-color: green;
+    background-image: linear-gradient(#051622, #292827);
+}
+
 /* ---------- HEADER ----------*/
 
 .header-container {
@@ -241,6 +247,17 @@ main div {
     font-family: Jura;
 }
 
+/* ---------- CONTACT ---------- */
+
+.contact-title {
+    font-family: Jura;
+    font-size: 4rem;
+    color: #35CABA;
+}
+
+/* ---------- CONTACT END ---------- */
+
+
 /* ---- FONTS ---- */
 
 @font-face {
@@ -292,7 +309,7 @@ main div {
 
 color: #D79E66;     orange
 color: #DFE1EE;     white
-color: #1BA098;     zöldeskék
+color: #35CABA;     zöldeskék
 color: #051622;     háttér sötétkék
 
 */
