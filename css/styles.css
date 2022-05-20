@@ -251,6 +251,21 @@ main div {
 
 /* ---------- CONTACT ---------- */
 
+article div {
+    padding: 0 1rem;
+}
+
+article div * {
+	padding: 0.5rem 0;  /* --- FONTOS SZABÀLY --- */
+}
+
+.contact-container {
+    outline: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 .contact-title {
     outline: 1px solid yellow; /* ideiglenes */
     font-family: Jura;
@@ -270,9 +285,15 @@ main div {
 
 .contact-placeholders {
     font-family: Jura;
+    width: 100%;
+}
+
+.contact-text {
+    height: 50vh;
 }
 
 .contact-button {
+    font-family: Jura;
     border: 2px solid #D79E66;
     border-radius: 0.2rem; /* MINDEN GOMB ILYEN LEGYEN */
     height: 3rem;
