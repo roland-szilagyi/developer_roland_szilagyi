@@ -145,7 +145,7 @@ article {
     padding: 0;
     width: 50%;
     height: 100%;
-    background-color: #051622;
+    background-color: #292827;
     visibility: hidden;
 }
 
@@ -240,7 +240,7 @@ main div p:last-child {
 
 main div p:last-child:hover {
     cursor: pointer;
-    background-color: #051622;
+    background-color: black;
     opacity: 0.9;
 }
 
@@ -301,6 +301,12 @@ article div * {
     background-color: rgba(10, 10, 10, 0.001);
     color: #D79E66;
     text-align: center;
+}
+
+.contact-button:hover {
+    cursor: pointer;
+    background-color: black;
+    opacity: 0.9;
 }
 
 /* ---------- CONTACT END ---------- */
