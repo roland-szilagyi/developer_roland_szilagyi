@@ -37,16 +37,48 @@
         <div class="main-container">
             <h2>Hi, my name is</h2>
             <h1>Roland</h1>
-            <h3>I can build what you imagine.</h3>
-            <p>I am a freelance Front-end Web Developer from Hungary.</p>
+            <!-- <h3>I can build what you imagine.</h3> -->
+            <h3 class="frontend-title">I am a freelance Front-end Web Developer from Hungary.</h3>
             <p>Check my portfolio!</p>
         </div>
     </main>
     <article>
         <div class="contact-container">
             <h2 class="contact-title">Contact.</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ab facilis accusantium excepturi placeat recusandae? Reiciendis sequi eius commodi in.</p>
-            <form action="" method="post"></form>
+            <p class="contact-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ab facilis accusantium excepturi placeat recusandae? Reiciendis sequi eius commodi in.</p>
+            <form class="contact-form" action="https://formspree.io/f/mayvarqz" method="get">
+
+            <!-- egysoros mezök */ -->
+            <div>
+                <label for="name-id"></label>
+                <input
+                    class="contact-placeholders"
+                    type="text"
+                    id ="vezetéknév-id"
+                    placeholder="Name">
+             </div>
+
+             <div>
+                <label for="email-id"></label>
+                <input
+                    class="contact-placeholders"
+                    type="email"
+                    id ="email-id"
+                    placeholder="Email">
+             </div>
+
+             <div>
+                <label for="message-id"></label>
+                <textarea
+                    class="contact-placeholders"
+                    name="message"
+                    id="message-id"
+                    placeholder="Message"></textarea>
+             </div>
+
+             <input class="contact-button" type="submit" value="Send Message">
+
+            </form>
         </div>
     </article>
 </body>

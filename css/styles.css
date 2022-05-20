@@ -217,9 +217,11 @@ h2 {
     color: #DFE1EE;
 }
 
-h3 {
+.frontend-title {
 	font-size: 1.5rem;
     color: #35CABA;
+    text-align: center;
+    width: 90%;
 }
 
 main div p {
@@ -250,9 +252,35 @@ main div {
 /* ---------- CONTACT ---------- */
 
 .contact-title {
+    outline: 1px solid yellow; /* ideiglenes */
     font-family: Jura;
     font-size: 4rem;
     color: #35CABA;
+}
+
+.contact-p {
+    outline: 1px solid yellow; /* ideiglenes */
+    color: #DFE1EE;
+    font-family: Brandon;
+}
+
+.contact-form {
+    outline: 1px solid yellow; /* ideiglenes */
+}
+
+.contact-placeholders {
+    font-family: Jura;
+}
+
+.contact-button {
+    border: 2px solid #D79E66;
+    border-radius: 0.2rem; /* MINDEN GOMB ILYEN LEGYEN */
+    height: 3rem;
+    width: 8rem;
+    line-height: 1.5rem;
+    background-color: rgba(10, 10, 10, 0.001);
+    color: #D79E66;
+    text-align: center;
 }
 
 /* ---------- CONTACT END ---------- */
@@ -272,7 +300,7 @@ main div {
 
 /* ---- MEDIA Q`s ----*/
 
-@media screen and (min-width: 576px) {
+/* @media screen and (min-width: 576px) {
 
     .header-left-container {
         font-size: 1.6rem;
@@ -303,7 +331,7 @@ main div {
         height: 4rem;
         line-height: 2.5rem;
     }
-}
+} */
 
 /* ---- COLORS ----
 
