@@ -237,7 +237,7 @@ h2 {
 
 .portfolio-btn { /* MINDEN GOMB ILYEN LEGYEN */
     font-size: 1.3rem;
-    border: 2px outset #D79E66;
+    border: 1.5px solid #D79E66;
     border-radius: 0.2rem;
     margin-top: 2rem;
     height: 4rem;
@@ -303,7 +303,7 @@ article div * {
     font-family: Jura;
     font-size: 1.3rem;
     margin: 0.5rem 0;
-    border: 2px outset #D79E66;
+    border: 1.5px solid #D79E66;
     border-radius: 0.2rem;
     height: 4rem;
     width: 12rem;
