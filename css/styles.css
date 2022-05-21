@@ -268,7 +268,7 @@ article div * {
 .contact-title {
     /* outline: 1px solid yellow; */
     font-family: Jura;
-    font-size: 4rem;
+    font-size: 3rem;
     color: #35CABA;
 }
 
@@ -285,6 +285,10 @@ article div * {
 .contact-placeholders {
     font-family: Jura;
     width: 100%;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 0.2rem;
 }
 
 .contact-text {
