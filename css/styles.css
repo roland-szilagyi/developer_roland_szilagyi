@@ -284,6 +284,13 @@ article div * {
     font-family: Brandon;
 }
 
+.mailto {
+    font-family: Brandon-reg;
+    color: #36CABA;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
 .contact-placeholders {
     font-family: Jura;
     width: 100%;
@@ -336,6 +343,16 @@ article div * {
 @font-face {
     font-family: Brandon;
     src: url(../assets/fonts/BrandonText-Thin.otf);
+}
+
+@font-face {
+    font-family: Brandon-reg;
+    src: url(../assets/fonts/BrandonText-Regular.otf);
+}
+
+@font-face {
+    font-family: Brandon-bold;
+    src: url(../assets/fonts/BrandonText-Bold.otf);
 }
 
 /* ---- MEDIA Q`s ----*/
