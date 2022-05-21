@@ -76,7 +76,12 @@ header {
 main {
     height: 100vh;
     padding-top: 6rem;
-    
+}
+
+section {
+    outline: 1px solid yellow;
+    height: 100vh;
+    padding-top: 4rem;
 }
 
 article {
@@ -210,6 +215,7 @@ nav ul li:last-child:hover {
     width: 100%;
     height: auto;
     transform: rotate(-25deg);
+    z-index: -1;
 }
 
 main div * {
@@ -257,6 +263,78 @@ main div {
     font-family: Jura;
 }
 
+/* ---------- SKILLS ---------- */
+
+.skills-title {
+    font-family: Jura;
+    font-size: 2.5rem;
+    color: #36CABA;
+}
+
+.skills-p {
+    color: #E4E3E3;
+    font-family: Brandon-reg;
+    font-size: 1.1rem;
+}
+
+.skills-container {
+    outline: 1px solid yellow;
+    font-family: Brandon;
+    display: flex;
+    flex-direction: column;
+    color: #E4E3E3;
+    margin: 1rem 0;
+}
+
+.skills-items-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 2rem;
+    outline: 1px solid green;
+}
+
+.skills-text {
+    width: 2rem;
+    color: #36CABA;
+    font-family: Brandon-reg;
+}
+
+.skills-progress {
+    width: 80%;
+    align-items: flex-start;
+    border-radius: 1rem;
+    background-color: orange;
+    margin: 0 1.5rem;
+    /* background-image: linear-gradient(0.25turn, #DFB385, orange); */
+}
+
+.skills-progress2 {
+    width: 60%;
+    align-items: flex-start;
+    border-radius: 1rem;
+    background-color: lightskyblue;
+    margin: 0 1.5rem;
+    /* background-image: linear-gradient(0.25turn, lightskyblue 10%, #2965F1); */
+}
+
+.skills-progress3 {
+    width: 70%;
+    align-items: flex-start;
+    border-radius: 1rem;
+    background-color: yellow;
+    margin: 0 1.5rem;
+    /* background-image: linear-gradient(0.25turn, #E4E3E3 , yellow); */
+}
+
+section div {
+    padding: 0 0.5rem;
+}
+
+section div * {
+	padding: 0.5rem 0;  /* --- FONTOS SZABÀLY --- */
+}
+
 /* ---------- CONTACT ---------- */
 
 article div {
@@ -275,13 +353,14 @@ article div * {
 
 .contact-title {
     font-family: Jura;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #36CABA;
 }
 
 .contact-p {
     color: #E4E3E3;
-    font-family: Brandon;
+    font-family: Brandon-reg;
+    font-size: 1.1rem;
 }
 
 .mailto {
@@ -304,7 +383,7 @@ article div * {
 }
 
 .contact-text {
-    height: 35vh;
+    height: 30vh;
 }
 
 .contact-button { /* MINDEN GOMB ILYEN LEGYEN */
