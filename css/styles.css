@@ -284,18 +284,15 @@ article div * {
     font-family: Brandon;
 }
 
-.contact-form {
- /* empty */
-}
-
 .contact-placeholders {
     font-family: Jura;
     width: 100%;
-    margin: 0.5rem 0;
+    margin: 0.3rem 0;
     padding: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     border-radius: 0.2rem;
-    background-color: #E4E3E3;
+    background-color: #3F3F3F;
+    border: 1.5px solid #B6B6B7;
 }
 
 .contact-text {
@@ -320,6 +317,10 @@ article div * {
     cursor: pointer;
     background-color: #202124;
     opacity: 0.9;
+}
+
+::placeholder {
+    color: #B6B6B7;
 }
 
 /* ---------- CONTACT END ---------- */
