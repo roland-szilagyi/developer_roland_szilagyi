@@ -67,14 +67,20 @@ body {
 
 header {
     height: 4rem;
+    position: fixed;
+    background-color: #292827;
+    width: 100%;
 }
 
 main {
-    height: 93vh;
+    height: 100vh;
+    padding-top: 6rem;
+    
 }
 
 article {
     height: 100vh;
+    padding-top: 4rem;
     background-color: #292827;
 }
 
@@ -93,6 +99,7 @@ article {
     font-weight: 900;
     font-size: 1.2rem;
     opacity: 0.9;
+    position: fixed;
 }
 
 .header-right-container { /* menü elemek szine */ 
@@ -292,7 +299,7 @@ article div * {
 }
 
 .contact-text {
-    height: 40vh;
+    height: 35vh;
 }
 
 .contact-button {
