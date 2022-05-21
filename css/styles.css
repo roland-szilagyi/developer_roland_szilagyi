@@ -209,6 +209,7 @@ nav ul li:last-child:hover {
 .paperplane {
     width: 100%;
     height: auto;
+    transform: rotate(-25deg);
 }
 
 main div * {
@@ -235,12 +236,12 @@ h2 {
 }
 
 .portfolio-btn { /* MINDEN GOMB ILYEN LEGYEN */
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     border: 1.5px solid #D79E66;
     border-radius: 0.2rem;
     margin-top: 2rem;
     height: 4rem;
-    width: 14rem;
+    width: 13rem;
     color: #D79E66;
     line-height: 2.5rem;
     text-align: center;
@@ -308,12 +309,12 @@ article div * {
 
 .contact-button { /* MINDEN GOMB ILYEN LEGYEN */
     font-family: Jura;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin: 0.5rem 0;
     border: 1.5px solid #D79E66;
     border-radius: 0.2rem;
-    height: 4rem;
-    width: 12rem;
+    height: 3.5rem;
+    width: 11rem;
     line-height: 1.5rem;
     background-color: rgba(10, 10, 10, 0.001);
     color: #D79E66;
