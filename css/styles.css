@@ -70,6 +70,7 @@ header {
     position: fixed;
     background-color: #292827;
     width: 100%;
+    border-bottom: 1px dashed #B6B6B7;
 }
 
 main {
@@ -94,7 +95,7 @@ article {
 }
 
 .header-left-container {
-    color: #35CABA; /*kék*/
+    color: #36CABA;
     font-family: Jura;
     font-weight: 900;
     font-size: 1.2rem;
@@ -102,8 +103,8 @@ article {
     position: fixed;
 }
 
-.header-right-container { /* menü elemek szine */ 
-    color: #D79E66; /*narancs*/
+.header-right-container {
+    color: #D79E66;
 }
 
 /* ---------- HAMBURGER ---------- */
@@ -144,7 +145,7 @@ article {
 }
 
 .menu__box {
-    outline: 1px solid #DFE1EE; 
+    outline: 1px dashed #B6B6B7; 
     position: fixed;
     display: block;
     right: 0;
@@ -167,7 +168,7 @@ article {
 
 .menu__items:hover {
     cursor: pointer;
-    color: #DFE1EE;
+    color: #B48450;
 }
 
 #menu__toggle {
@@ -179,7 +180,11 @@ article {
 }
 
 nav ul li:last-child {
-    color: #35CABA;
+    color: #36CABA;
+}
+
+nav ul li:last-child:hover {
+    color: #2B9A8E
 }
 
 /* ---------- HAMBURGER END ----------*/
@@ -187,7 +192,7 @@ nav ul li:last-child {
 /* ---------- MAIN ---------- */
 
 .main-container {
-    height: 45%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -220,34 +225,31 @@ h1 {
 
 h2 {
 	font-size: 1.5rem;
-    color: #DFE1EE;
+    color: #E4E3E3;
 }
 
 .frontend-title {
 	font-size: 1.5rem;
-    color: #35CABA;
+    color: #36CABA;
     text-align: center;
     width: 90%;
 }
 
-main div p {
-    color: #DFE1EE;
+.portfolio-btn { /* MINDEN GOMB ILYEN LEGYEN */
+    font-size: 1.3rem;
+    border: 2px outset #D79E66;
+    border-radius: 0.2rem;
+    margin-top: 2rem;
+    height: 4rem;
+    width: 14rem;
+    color: #D79E66;
+    line-height: 2.5rem;
     text-align: center;
 }
 
-main div p:last-child {
-    border: 2px solid #D79E66;
-    border-radius: 0.2rem; /* MINDEN GOMB ILYEN LEGYEN */
-    margin-top: 2rem;
-    height: 3rem;
-    width: 11rem;
-    color: #D79E66;
-    line-height: 1.5rem;
-}
-
-main div p:last-child:hover {
+.portfolio-btn:hover {
     cursor: pointer;
-    background-color: black;
+    background-color: #202124;
     opacity: 0.9;
 }
 
@@ -258,7 +260,7 @@ main div {
 /* ---------- CONTACT ---------- */
 
 article div {
-    padding: 0 1rem;
+    padding: 0 0.5rem;
 }
 
 article div * {
@@ -266,27 +268,24 @@ article div * {
 }
 
 .contact-container {
-    /* outline: 1px solid green; */
     display: flex;
     flex-direction: column;
     height: 100%;
 }
 
 .contact-title {
-    /* outline: 1px solid yellow; */
     font-family: Jura;
     font-size: 3rem;
-    color: #35CABA;
+    color: #36CABA;
 }
 
 .contact-p {
-    /* outline: 1px solid yellow; */
-    color: #DFE1EE;
+    color: #E4E3E3;
     font-family: Brandon;
 }
 
 .contact-form {
-
+ /* empty */
 }
 
 .contact-placeholders {
@@ -296,18 +295,19 @@ article div * {
     padding: 1rem;
     font-size: 1.5rem;
     border-radius: 0.2rem;
+    background-color: #E4E3E3;
 }
 
 .contact-text {
     height: 35vh;
 }
 
-.contact-button {
+.contact-button { /* MINDEN GOMB ILYEN LEGYEN */
     font-family: Jura;
     font-size: 1.3rem;
     margin: 0.5rem 0;
-    border: 2px solid #D79E66;
-    border-radius: 0.2rem; /* MINDEN GOMB ILYEN LEGYEN */
+    border: 2px outset #D79E66;
+    border-radius: 0.2rem;
     height: 4rem;
     width: 12rem;
     line-height: 1.5rem;
@@ -318,7 +318,7 @@ article div * {
 
 .contact-button:hover {
     cursor: pointer;
-    background-color: black;
+    background-color: #202124;
     opacity: 0.9;
 }
 
@@ -354,11 +354,11 @@ article div * {
     }
 
     h2, h3 {
-        font-size: 2rem; /* +30% bigger */
+        font-size: 2rem;
     }
 
     h1 {
-        font-size: 3.3rem; /* +30% bigger */
+        font-size: 3.3rem;
     }
 
     main div p {
@@ -374,9 +374,16 @@ article div * {
 
 /* ---- COLORS ----
 
-color: #D79E66;     orange
-color: #DFE1EE;     white
-color: #35CABA;     zöldeskék
-color: #051622;     háttér sötétkék
+narancs         #D79E66
+sötét narancs   #B48450
+
+fehér           #E4E3E3     
+szürke          #B6B6B7
+
+türkiz          #36CABA
+sötét türkiz    #2B9A8E
+
+shark black     #202124 (gombok)
+fekete háttér   #292827
 
 */
