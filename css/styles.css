@@ -71,6 +71,7 @@ header {
     background-color: #292827;
     width: 100%;
     border-bottom: 1px dashed #B6B6B7;
+    z-index: 1;
 }
 
 main {
@@ -215,7 +216,6 @@ nav ul li:last-child:hover {
     width: 100%;
     height: auto;
     transform: rotate(-25deg);
-    z-index: -1;
 }
 
 main div * {
