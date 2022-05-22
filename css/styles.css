@@ -277,7 +277,7 @@ main div {
     font-size: 1.1rem;
 }
 
-.skills-container {
+.htmlcssjs-container {
     /* outline: 1px solid yellow; */
     font-family: Brandon;
     display: flex;
@@ -286,7 +286,7 @@ main div {
     margin: 1rem 0;
 }
 
-.skills-items-container {
+.htmlcssjs-items {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -295,15 +295,17 @@ main div {
     padding: 1.8rem 0;
 }
 
-.logo-container {
+.htmlcssjs-logo-container {
     width: 2.2rem;
 }
 
-.logo-items {
+.htmlcssjs-logo-items {
     width: 100%;
     height: auto;
     opacity: 0.9;
 }
+
+/* ---------- PROGRESS BAR ---------- */
 
 .progress {
     background: rgba(255,255,255,0.1);
@@ -314,49 +316,48 @@ main div {
     display: flex;
     height: 1.2rem;
     width: 80%;
-  }
-  
-  .progress-value1 {
-    animation: load 3s normal forwards;
-    box-shadow: 0 0 10px -4px #F16529;
+}
+
+.progress-value-common {
     border-radius: 1rem;
-    background-image: linear-gradient(90deg, #E44D26, #F16529);
     height: 1.2rem;
     opacity: 0.9;
-  }
-  
-  @keyframes load {
+}
+
+@keyframes load1 {
     0% { width: 0; }
     100% { width: 90%; }
-  }
+}
 
-  .progress-value2 {
-    animation: load2 4s normal forwards;
-    box-shadow: 0 0 10px -4px #29A8E0;
-    border-radius: 1rem;
-    background-image: linear-gradient(90deg, #0470BA, #29A8E0);
-    height: 1.2rem;
-    opacity: 0.9;
-  }
-  
-  @keyframes load2 {
+@keyframes load2 {
     0% { width: 0; }
     100% { width: 80%; }
-  }
+}
 
-  .progress-value3 {
-    animation: load3 2s normal forwards;
-    box-shadow: 0 0 10px -4px #8ACF18;
-    border-radius: 1rem;
-    background-image: linear-gradient(90deg, #63A813, #8ACF18);
-    height: 1.2rem;
-    opacity: 0.9;
-  }
-  
-  @keyframes load3 { 
+@keyframes load3 { 
     0% { width: 0; }
     100% { width: 85%; }
-  }
+}
+
+.progress-value1 {
+    animation: load1 3s normal forwards;
+    box-shadow: 0 0 10px -4px #F16529;
+    background-image: linear-gradient(90deg, #E44D26, #F16529);
+}
+
+.progress-value2 {
+    animation: load2 4s normal forwards;
+    box-shadow: 0 0 10px -4px #29A8E0;
+    background-image: linear-gradient(90deg, #0470BA, #29A8E0);
+}
+
+.progress-value3 {
+    animation: load3 2s normal forwards;
+    box-shadow: 0 0 10px -4px #8ACF18;
+    background-image: linear-gradient(90deg, #63A813, #8ACF18);
+}
+
+  /* ---------- PROGRESS BAR END---------- */
 
 section div {
     padding: 0 0.5rem;
@@ -366,6 +367,7 @@ section div * {
 	padding: 0.5rem 0;  /* --- FONTOS SZABÀLY --- */
 }
 
+/* ---------- SKILLS END ---------- */
 /* ---------- CONTACT ---------- */
 
 article div {
