@@ -378,7 +378,7 @@ main div {
 
 .skills-icons-items:hover {
     opacity: 1;
-    filter: none;
+    filter: grayscale(25%);
     opacity: 0.8;
 }
 
