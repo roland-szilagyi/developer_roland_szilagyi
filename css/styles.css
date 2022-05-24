@@ -403,6 +403,18 @@ section div * {
 }
 
 /* ---------- SKILLS END ---------- */
+
+/* ---------- ABOUT ---------- */
+
+.about-title {
+    font-family: Jura;
+    font-size: 2.5rem;
+    color: #36CABA;
+}
+
+/* ---------- ABOUT END ---------- */
+
+
 /* ---------- CONTACT ---------- */
 
 article div {
