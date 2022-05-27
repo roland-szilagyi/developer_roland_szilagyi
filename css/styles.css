@@ -74,18 +74,19 @@ header {
     z-index: 1;
 }
 
-main {
+main { /* <------------------- MAIN */
     height: 100vh;
     padding-top: 6rem;
+    border-bottom: 1px dashed #B6B6B7;
 }
 
-section {
-    outline: 1px solid yellow;
+section { /* <---------------- SKILLS / ABOUT */
     height: 100vh;
     padding-top: 4rem;
+    border-bottom: 1px dashed #B6B6B7;
 }
 
-article {
+article { /* <---------------- CONTACT */
     height: 100vh;
     padding-top: 4rem;
     background-color: #292827;
@@ -410,6 +411,34 @@ section div * {
     font-family: Jura;
     font-size: 2.5rem;
     color: #36CABA;
+}
+
+.about-p {
+    color: #E4E3E3;
+    font-family: Brandon-reg;
+    font-size: 1.1rem;
+}
+
+.aboutimg-container {
+    display: flex;
+    justify-content: center;
+    max-width: 60%;
+    margin: auto;
+    filter: grayscale(100%);
+}
+
+.aboutimg-container:hover {
+    display: flex;
+    justify-content: center;
+    max-width: 70%;
+    margin: auto;
+    filter: none;
+}
+
+
+.aboutimg {
+    width: 100%;
+    height: auto;
 }
 
 /* ---------- ABOUT END ---------- */
