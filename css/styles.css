@@ -61,8 +61,9 @@ header, main, article, section, aside, footer {
 
 /* ---------- SEMANTIC CONTAINERS ---------- */
 
-body { 
+body {
     background-color: #292827;
+    overflow-x: hidden;
 }
 
 header {
@@ -199,12 +200,18 @@ nav ul li:last-child:hover {
 /* ---------- MAIN ---------- */
 
 /* ---------- CLOUDs ---------- */
+
+.clouds-container {
+    overflow-x: hidden;
+}
+
 .cloud {
-    position: fixed;
+    position: absolute;
+    overflow-x: hidden;
     z-index: -1;
     right: -50%;
     width: 30%;
-    animation-name: cloud;
+    -webkit-animation: cloud;
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(1, 1, 1, 1);
@@ -212,12 +219,13 @@ nav ul li:last-child:hover {
 }
 
 .cloud2 {
-    position: fixed;
+    position: absolute;
+    overflow-x: hidden;
     z-index: -1;
     right: -50%;
     width: 35%;
     top: 4rem;
-    animation-name: cloud2;
+    -webkit-animation: cloud2;
     animation-duration: 18s;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(1, 1, 1, 1);
@@ -225,12 +233,13 @@ nav ul li:last-child:hover {
 }
 
 .cloud3 {
-    position: fixed;
+    position: absolute;
+    overflow-x: hidden;
     z-index: 1;
     right: -50%;
     width: 25%;
     top: 10rem;
-    animation-name: cloud3;
+    -webkit-animation: cloud3;
     animation-duration: 25s;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(1, 1, 1, 1);
