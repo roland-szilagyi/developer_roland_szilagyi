@@ -198,6 +198,62 @@ nav ul li:last-child:hover {
 
 /* ---------- MAIN ---------- */
 
+/* ---------- CLOUDs ---------- */
+.cloud {
+    position: fixed;
+    z-index: -1;
+    right: -50%;
+    width: 30%;
+    animation-name: cloud;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1, 1, 1, 1);
+    animation-delay: 8s;
+}
+
+.cloud2 {
+    position: fixed;
+    z-index: -1;
+    right: -50%;
+    width: 35%;
+    top: 4rem;
+    animation-name: cloud2;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1, 1, 1, 1);
+    animation-delay: 2s;
+}
+
+.cloud3 {
+    position: fixed;
+    z-index: 1;
+    right: -50%;
+    width: 25%;
+    top: 10rem;
+    animation-name: cloud3;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1, 1, 1, 1);
+    animation-delay: 12s;
+}
+
+@keyframes cloud {
+    from {right: -50%;}
+    to {right: 150%;}
+}
+
+@keyframes cloud2 {
+    from {right: -50%;}
+    to {right: 150%;}
+}
+
+@keyframes cloud3 {
+    from {right: -50%;}
+    to {right: 150%;}
+}
+
+/* ---------- CLOUDs END ---------- */
+
 .main-container {
     height: 50%;
     display: flex;
@@ -330,17 +386,17 @@ main div {
 
 @keyframes load1 {
     0% { width: 0; }
-    100% { width: 90%; }
+    100% { width: 80%; }
 }
 
 @keyframes load2 {
     0% { width: 0; }
-    100% { width: 80%; }
+    100% { width: 70%; }
 }
 
 @keyframes load3 { 
     0% { width: 0; }
-    100% { width: 85%; }
+    100% { width: 30%; }
 }
 
 .progress-value1 {
@@ -361,14 +417,15 @@ main div {
     /* outline: 1px solid yellow; */
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
     /* margin: 0 1rem; */
 }
 
 .skills-icons {
     /* outline: 1px solid green; */
-    width: 6rem;
-    padding: 1rem;
+    width: 5rem;
+    padding: 0 1rem;
 }
 
 .skills-icons-items {
