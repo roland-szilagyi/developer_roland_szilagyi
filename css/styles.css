@@ -229,7 +229,6 @@ nav ul li:last-child:hover {
     animation-duration: 18s;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(1, 1, 1, 1);
-    animation-delay: 2s;
 }
 
 .cloud3 {
@@ -282,6 +281,14 @@ nav ul li:last-child:hover {
     width: 100%;
     height: auto;
     transform: rotate(-15deg);
+    animation-name: plane-anim;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes plane-anim {
+    50% {transform: rotate(-25deg);}
 }
 
 main div * {
