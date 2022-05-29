@@ -265,14 +265,14 @@ nav ul li:last-child:hover {
 .paperplane-container {
     display: flex;
     justify-content: center;
-    max-width: 55%;
+    max-width: 50%;
     margin: auto;
 }
 
 .paperplane {
     width: 100%;
     height: auto;
-    transform: rotate(-25deg);
+    transform: rotate(-15deg);
 }
 
 main div * {
