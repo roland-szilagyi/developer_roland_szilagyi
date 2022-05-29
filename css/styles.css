@@ -95,13 +95,6 @@ article { /* <---------------- CONTACT */
 
 /* ---------- HEADER ----------*/
 
-.header-container {
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .header-left-container {
     color: #36CABA;
     font-family: Jura;
@@ -109,6 +102,24 @@ article { /* <---------------- CONTACT */
     font-size: 1.2rem;
     opacity: 0.9;
     position: fixed;
+}
+
+.main-icons-container {
+    outline: 1px solid green;
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container {
+    width: 3rem;
+    margin: 0 0.5rem;
+}
+
+.icon-items {
+    width: 100%;
 }
 
 .header-right-container {
@@ -211,7 +222,7 @@ nav ul li:last-child:hover {
     z-index: -1;
     right: -50%;
     width: 30%;
-    -webkit-animation: cloud;
+    animation-name: cloud;
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(1, 1, 1, 1);
@@ -225,7 +236,7 @@ nav ul li:last-child:hover {
     right: -50%;
     width: 35%;
     top: 4rem;
-    -webkit-animation: cloud2;
+    animation-name: cloud2;
     animation-duration: 18s;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(1, 1, 1, 1);
@@ -238,7 +249,7 @@ nav ul li:last-child:hover {
     right: -50%;
     width: 25%;
     top: 10rem;
-    -webkit-animation: cloud3;
+    animation-name: cloud3;
     animation-duration: 25s;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(1, 1, 1, 1);
@@ -263,7 +274,7 @@ nav ul li:last-child:hover {
 /* ---------- CLOUDs END ---------- */
 
 .main-container {
-    height: 50%;
+    height: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
