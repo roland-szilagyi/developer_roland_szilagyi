@@ -120,6 +120,7 @@ article { /* <---------------- CONTACT */
 
 .icon-items {
     width: 100%;
+    filter: grayscale(100%);
 }
 
 .header-right-container {
