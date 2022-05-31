@@ -127,6 +127,10 @@ article { /* <---------------- CONTACT */
     color: #D79E66;
 }
 
+.icon-items:hover {
+    filter: none;
+}
+
 /* ---------- HAMBURGER ---------- */
 
 .hamburger-button {
