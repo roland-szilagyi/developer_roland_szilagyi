@@ -68,9 +68,10 @@ body {
 
 header {
     height: 4rem;
-    position: fixed;
-    background-color: #292827;
     width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
     border-bottom: 1px dashed #B6B6B7;
     z-index: 1;
 }
@@ -95,7 +96,7 @@ article { /* <---------------- CONTACT */
 
 /* ---------- HEADER ----------*/
 
-.header-left-container {
+.nav-left-container {
     color: #36CABA;
     font-family: Jura;
     font-weight: 900;
@@ -104,32 +105,8 @@ article { /* <---------------- CONTACT */
     position: fixed;
 }
 
-.main-icons-container {
-    outline: 1px solid green;
-    margin-top: 5rem;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.icon-container {
-    width: 3rem;
-    margin: 0 0.5rem;
-}
-
-.icon-items {
-    width: 100%;
-    filter: grayscale(100%);
-}
-
-.header-right-container {
+.nav-right-container {
     color: #D79E66;
-}
-
-.icon-items:hover {
-    filter: none;
-    cursor: pointer;
 }
 
 /* ---------- HAMBURGER ---------- */
@@ -525,10 +502,33 @@ section div * {
     filter: none;
 }
 
-
 .aboutimg {
     width: 100%;
     height: auto;
+}
+
+.main-icons-container {
+    outline: 1px solid green;
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container {
+    width: 3rem;
+    margin: 0 0.5rem;
+}
+
+.icon-items {
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.icon-items:hover {
+    filter: none;
+    cursor: pointer;
 }
 
 /* ---------- ABOUT END ---------- */
@@ -684,3 +684,13 @@ shark black     #202124 (gombok)
 fekete háttér   #292827
 
 */
+
+@media
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (   min--moz-device-pixel-ratio: 2),
+  only screen and (     -o-min-device-pixel-ratio: 2/1),
+  only screen and (        min-device-pixel-ratio: 2),
+  only screen and (                min-resolution: 192dpi),
+  only screen and (                min-resolution: 2dppx) { 
+    /* Retina styles here */
+}
