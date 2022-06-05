@@ -129,6 +129,7 @@ article { /* <---------------- CONTACT */
 
 .icon-items:hover {
     filter: none;
+    cursor: pointer;
 }
 
 /* ---------- HAMBURGER ---------- */
@@ -225,7 +226,7 @@ nav ul li:last-child:hover {
     position: absolute;
     overflow-x: hidden;
     z-index: -1;
-    right: -50%;
+    right: 150%;
     width: 30%;
     animation-name: cloud;
     animation-duration: 20s;
@@ -238,7 +239,7 @@ nav ul li:last-child:hover {
     position: absolute;
     overflow-x: hidden;
     z-index: -1;
-    right: -50%;
+    right: 150%;
     width: 35%;
     top: 4rem;
     animation-name: cloud2;
@@ -251,7 +252,7 @@ nav ul li:last-child:hover {
     position: absolute;
     overflow-x: hidden;
     z-index: 1;
-    right: -50%;
+    right: 150%;
     width: 25%;
     top: 10rem;
     animation-name: cloud3;
@@ -262,17 +263,17 @@ nav ul li:last-child:hover {
 }
 
 @keyframes cloud {
-    from {right: -50%;}
+    from {right: 1%;}
     to {right: 150%;}
 }
 
 @keyframes cloud2 {
-    from {right: -50%;}
+    from {right: 1%;}
     to {right: 150%;}
 }
 
 @keyframes cloud3 {
-    from {right: -50%;}
+    from {right: 1%;}
     to {right: 150%;}
 }
 
